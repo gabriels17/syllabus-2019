@@ -75,6 +75,7 @@ leiðbeiningar um uppsetningu síðar.
 
 # Schedule
 
+*Draft might change* 
 ## Week 1
 
 ### Day 1: Mon. 25th of November
