@@ -84,7 +84,7 @@ leiðbeiningar um uppsetningu síðar.
 | ---------------------- | -------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
 | **Lecture**            | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | - Build and Deployment Scripting| - The anatomy of the build pipeline                   | No lecture, Lab day                              |
 | **Reading Assignment** | Chapter 1                                                | Chapter 2, (3), (13), 14                                  | Chapter 6,(11)                                                                  | Chapter 5                                      |                                                  |
-| **Lab exercise**       | [Linux 101](/Day1/README.md)                 | [Docker]                     | [AWS]                                            | [WebSite and Deployment] | [Week 1 assignment] |
+| **Lab exercise**       | [Linux 101](/Assignments/Day1/README.md)                 | [Docker]                     | [AWS]                                            | [WebSite and Deployment] | [Week 1 assignment] |
 
 ## Week 2
 
