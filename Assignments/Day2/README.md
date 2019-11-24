@@ -625,7 +625,7 @@ You should store all the source files in your repository:
 │   └── day02
 │       └── answers.md
 ├── scripts
-│   └── verify_environment.sh
+│   └── setup_local_dev_environment.sh
 └── docker-compose.yml
 ```
 

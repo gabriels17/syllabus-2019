@@ -3,6 +3,7 @@
 ## Part 1 - Installing Terraform
 
 > What is Terraform?
+>
 > Terraform is an open-source infrastructure as code software tool created by HashiCorp. It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language, or optionally JSON.
 
 Follow the instructions at [Install Terraform](https://www.terraform.io/intro/getting-started/install.html).\
