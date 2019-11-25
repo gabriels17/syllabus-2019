@@ -74,7 +74,7 @@ You should store the answers and setup scripts inside your repository:
 
 They must be placed at this location to get full marks.\
 YourGitRepository/assignments/day01/answers.md\
-YourGitRepository/setup_local_dev_environment.sh
+YourGitRepository/scripts/setup_local_dev_environment.sh
 
 You should make a copy of your setup script and maintain it through out the 
 course for the final handin.
