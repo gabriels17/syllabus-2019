@@ -22,7 +22,7 @@ Introduction into the bash scripting language and learning how to setup our loca
 
 ## Assignment
 
-Create a bash script `scripts/setup_local_dev_environment.sh` that checks required programs/dependencies.
+Create a bash script `scripts/setup_local_dev_environment.sh` that checks required programs/dependencies. 
 
 - [ ] Make sure all bash commands are commented.
 - [ ] The script should prompt the user with:
@@ -32,14 +32,14 @@ Create a bash script `scripts/setup_local_dev_environment.sh` that checks requir
   - [ ] What type of operating system it is running on
 - [ ] Display the date and time when the script starts and ends.
 - [ ] The script should install the following tools:
-  - [ ] brew
+  - [ ] brew (if macOS)
   - [ ] git
   - [ ] NodeJS
 - [ ] The script should print versions of all tools.
-  - [ ] brew
-  - [ ] git
+  - [ ] brew (if macOS)
+  - [ ] git 
   - [ ] NodeJS (node)
-  - [ ] npm
+  - [ ] npm (included with node)
 - [ ] The script should generate a log file and output to terminal.
 
 ## Adding an SSH key to GitHub
@@ -49,7 +49,7 @@ The following information can be found
 and
 [here for adding to github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-Now review the handin information, commit your changes and clone the repository with SSH instead of HTTPS. SSH
+Now review the handin information, commit your changes and clone the repository with SSH instead of HTTPS. SSH 
 is more convenient when automating build systems because it allows for
 password-less authentication. It is also more secure e.g. keyloggers.
 
@@ -58,7 +58,7 @@ password-less authentication. It is also more secure e.g. keyloggers.
 - [ ] I have answered the questions
 - [ ] I have created an executable script that completes all requirements
 - [ ] I have commented the script (what is the purpose of each line or function)
-
+      
 ## Handin
 
 You should store the answers and setup scripts inside your repository:
@@ -76,7 +76,7 @@ They must be placed at this location to get full marks.\
 YourGitRepository/assignments/day01/answers.md\
 YourGitRepository/setup_local_dev_environment.sh
 
-You should make a copy of your setup script and maintain it through out the
+You should make a copy of your setup script and maintain it through out the 
 course for the final handin.
 
 ## Tips and tricks
