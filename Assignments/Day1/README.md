@@ -32,14 +32,14 @@ Create a bash script `scripts/setup_local_dev_environment.sh` that checks requir
   - [ ] What type of operating system it is running on
 - [ ] Display the date and time when the script starts and ends.
 - [ ] The script should install the following tools:
-  - [ ] brew
+  - [ ] brew (if macOS)
   - [ ] git
   - [ ] NodeJS
 - [ ] The script should print versions of all tools.
-  - [ ] brew
-  - [ ] git
+  - [ ] brew (if macOS)
+  - [ ] git 
   - [ ] NodeJS (node)
-  - [ ] npm
+  - [ ] npm (included with node)
 - [ ] The script should generate a log file and output to terminal.
 
 ## Adding an SSH key to GitHub
@@ -74,9 +74,9 @@ You should store the answers and setup scripts inside your repository:
 
 They must be placed at this location to get full marks.\
 YourGitRepository/assignments/day01/answers.md\
-YourGitRepository/setup_local_dev_environment.sh
+YourGitRepository/scripts/setup_local_dev_environment.sh
 
-You should make a copy of your setup script and maintain it through out the
+You should make a copy of your setup script and maintain it through out the 
 course for the final handin.
 
 ## Tips and tricks
