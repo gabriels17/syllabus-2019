@@ -614,7 +614,7 @@ You should store all the source files in your repository:
 
 ```bash
 .
-├── itemrepository
+├── item_repository
 │   ├── app.js
 │   ├── database.js
 │   ├── Dockerfile
