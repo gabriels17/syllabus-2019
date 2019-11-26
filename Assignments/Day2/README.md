@@ -99,7 +99,7 @@ CMD node app.js
 ```
 
 This Dockerfile refers to a couple of files we haven’t created yet, namely
-`app.js`, `database.json` and  `package.json`. Let’s create those next.
+`app.js`, `database.js` and  `package.json`. Let’s create those next.
 
 ### The app itself
 
