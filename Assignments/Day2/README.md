@@ -188,8 +188,8 @@ module.exports = {
 function getClient() {
     return new Client({
         host: "your container name",
-        user: process.env.POSTGRES_USER,
-        password: process.env.POSTGRES_PASSWORD,
+        user: //TODO
+        password: //TODO
         database: process.env.POSTGRES_DB
     });
 }
@@ -486,7 +486,8 @@ services:
 ```
 
 Then take the environment variables you defined for the `my_postgres_container`
-and add them to `database.js`. The host value should be the name of the container,
+and add them to `database.js` (using the environment variables, DO NOT HARD CODE 
+THE VALUES). The host value should be the name of the service in the `docker-compose.yml`,
 in this case `my_postgres_container`. Docker compose will map the host value
 `my_postgres_container` to the postgres docker container behind the scenes
 e.g. my_postgres_container:162.242.195.82
