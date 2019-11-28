@@ -503,6 +503,7 @@ NOTE: you need to push your image to Docker Cloud before you will see
 any changes when you run `docker-compose`, it is not enough to change the code
 since `docker-compose` does not know about your source code, it only works on
 your docker images.
+Please advise that the push process is: Make changes > Build Docker image > Tag image > Push image
 
 Docker-compose will link the item_repository and postgres containers
 together so that they can connect to each other using the name in the
