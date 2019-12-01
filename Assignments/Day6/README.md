@@ -205,7 +205,7 @@ Now create a script that runs `docker-compose up` using a given git commit as a 
 
 export GIT_COMMIT=$1
 docker-compose down
-docker-compose up
+docker-compose up -d
 ```
 
 Try it:
