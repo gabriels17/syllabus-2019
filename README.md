@@ -1,3 +1,6 @@
+# Solutions
+- [Week 1](https://github.com/hgop/week1-solution-2019)
+
 # Grading
 
 - Pair assignment – 75%
