@@ -10,8 +10,7 @@ Stages:
   - Lint (Jenkinsfile Stage)
   - Test (Jenkinsfile Stage)
   - Build (Jenkinsfile Stage)
-  - Trigger Deploy Job
-- Deploy (Jenkins Job)
+  - Deploy (Jenkinsfile Stage)
 
 **Note**: In the Jenkinsfile, a stage is different than how it is referred to in the
 course. In the course we talk about a `Commit` stage, this is different in the
