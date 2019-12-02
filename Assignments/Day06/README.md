@@ -82,6 +82,7 @@ After completing the sign up you should setup Security Credentials
 4. Save
 
 You will also need to setup an SSH key for the jenkins user to access GitHub.
+[You can e.g. follow this tutorial](https://mohitgoyal.co/2017/02/27/configuring-ssh-authentication-between-github-and-jenkins/)
 
 ## Part 6 - Create your first pipeline
 
