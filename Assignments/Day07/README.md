@@ -219,7 +219,7 @@ player will draw in the test.
 
 To work around this we will use dependency injection, which means the caller will provide
 the callee with the dependencies in our case the constructor:\
-`game-api/lucky21.js`:
+`game_api/lucky21.js`:
 ```javascript
 module.exports = (deck, dealer) => {
     dealer.shuffle(deck);
