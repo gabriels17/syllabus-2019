@@ -1,3 +1,7 @@
+# Problem with `initialize_game_api_instance.sh`
+
+https://github.com/hgop/syllabus-2019/issues/18
+
 # Assignments
 - Total 3 assignments, one for each week. Should be handed in on Fridays before midnight.
 - Solutions and next weeks assignments are posted on Sunday evenings.
