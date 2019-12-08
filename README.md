@@ -1,5 +1,6 @@
 # Solutions
 - [Week 1](https://github.com/hgop/week1-solution-2019)
+- [Week 2](https://github.com/hgop/week2-solution-2019)
 
 # Grading
 
@@ -107,4 +108,4 @@ leiðbeiningar um uppsetningu síðar.
 | ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
 | **Lecture**            | - Deploying and Releasing Applications<br>- Managing Data | Manual quality assurance (Sjá) | - Managing Continuous Delivery<br> - Guest lecture on compliance     | Time for students to prepare exam | Exam, 09:00 - 10:30                                |
 | **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |
-| **Lab exercise**       | [Acceptance and Capacity Tests. Test results and coverage]|   [Data migrations and Connect UI]                           | [Monitoring] |                                   | [Week 3 assignment] |
+| **Lab exercise**       | [Acceptance and Capacity Tests. Test results and coverage](/Assignments/Day11/README.md)|   [Data migrations and Connect UI](/Assignments/Day12/README.md)                           | [Monitoring](/Assignments/Day13/README.md) |                                   | [Week 3 assignment](/Assignments/Day14/README.md) |
