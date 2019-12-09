@@ -228,7 +228,7 @@ It is done be adding a header Access-Control-Allow-Origin in the express app.
 You should store all the source files in your repository:
 
 ```bash
-├── game-api
+├── game_api
 │   ├── migrations
 │   │   ├── **************-GameResultTable.js
 │   │   └── **************-GameResultTableAddInsertDate.js
@@ -253,7 +253,7 @@ You should store all the source files in your repository:
 │   ├── server.capacity-test.js
 │   ├── server.js
 │   └── server.lib-test.js
-├── game-client
+├── game_client
 │   │   ├── App.js
 │   │   └── utils.js
 │   ├── Dockerfile
