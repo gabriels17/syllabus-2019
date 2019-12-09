@@ -16,25 +16,25 @@ You should store all the source files in your repository:
 │   │   └── **************-GameResultTableAddInsertDate.js
 │   ├── .eslintrc.json
 │   ├── app.js
-│   ├── server.js
-│   ├── server.lib-test.js
-│   ├── server.api-test.js
-│   ├── server.capacity-test.js
 │   ├── config.js
-│   ├── random.js
-│   ├── random.unit-test.js
-│   ├── deck.js
-│   ├── deck.unit-test.js
-│   ├── dealer.js
-│   ├── dealer.unit-test.js
-│   ├── lucky21.js
-│   ├── lucky21.unit-test.js
-│   ├── inject.js
 │   ├── context.js
 │   ├── database.js
 │   ├── database.json
+│   ├── dealer.js
+│   ├── dealer.unit-test.js
+│   ├── deck.js
+│   ├── deck.unit-test.js
 │   ├── Dockerfile
-│   └── package.json
+│   ├── inject.js
+│   ├── lucky21.js
+│   ├── lucky21.unit-test.js
+│   ├── package.json
+│   ├── random.js
+│   ├── random.unit-test.js
+│   ├── server.api-test.js
+│   ├── server.capacity-test.js
+│   ├── server.js
+│   └── server.lib-test.js
 ├── game-client
 │   │   ├── App.js
 │   │   └── utils.js
@@ -48,13 +48,14 @@ You should store all the source files in your repository:
 │   └── day11
 │       └── answers.md
 ├── scripts
-│   ├── initialize_game_api_instance.sh
-│   ├── verify_environment.sh
-│   ├── docker_compose_up.sh
+│   ├── deploy.sh
 │   ├── docker_build.sh
+│   ├── docker_compose_up.sh
 │   ├── docker_push.sh
-│   ├── sync_session.sh
-│   └── deploy.sh
+│   ├── initialize_game_api_instance.sh
+│   ├── jenkins_deploy.sh
+│   ├── setup_local_dev_environment.sh
+│   └── sync_session.sh
 ├── DataDogDashboard.png
 ├── docker-compose.yml
 ├── infrastructure.tf
