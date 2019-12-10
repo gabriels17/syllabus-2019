@@ -214,7 +214,32 @@ Note, the Client might need a refresh after pressing New Game.
 
 In game-api, `server.js` needs to be modified to allow cross origin resource sharing.
 
-It is done be adding a header Access-Control-Allow-Origin in the express app.
+It is done be adding a header Access-Control-Allow-Origin in the API's express app.
+
+### Hints
+
+Since we can not have a TA class today, due to weather. Here are a few helpful hints:
+
+`scripts/start_local.sh`
+~~~bash
+#!/bin/bash
+
+set -euxo pipefail
+
+docker build game_api -t ironpeak/game_api:dev
+(cd game_client && npm build)
+docker build game_client -t ironpeak/game_client:dev
+
+API_URL=localhost GIT_COMMIT=dev docker-compose up
+~~~
+
+`Access-Control-Allow-Origin Header`
+~~~javascript
+  app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    next();
+  });
+~~~
 
 ## Handin
 
