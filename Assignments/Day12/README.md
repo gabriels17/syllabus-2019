@@ -177,13 +177,13 @@ This way we can visualize the process of the game.
 Go to the root of the project and create a new git repository and pull the client code to the folder.
 
 ```bash
-mkdir game-client
-cd game-client
+mkdir game_client
+cd game_client
 git init
 git pull git@github.com:hgop/lucky-21-frontend.git
 rm -rf .git
 cd ..
-git rm --cached game-client
+git rm --cached game_client
 ```
 
 Install project dependencies
@@ -208,7 +208,7 @@ Remember to tag accordingly.
 
 Add the container to you `docker-compose.yml` file at the root of the project.
 
-The Client code is missing connection to game-api.
+The Client code is missing connection to game_api.
 
 Note, the Client might need a refresh after pressing New Game.
 
@@ -239,6 +239,20 @@ API_URL=localhost GIT_COMMIT=dev docker-compose up
     res.header("Access-Control-Allow-Origin", "*");
     next();
   });
+~~~
+
+`Game Client`
+~~~yaml
+  game_client:
+    image: username/game_client:${GIT_COMMIT}
+    ports:
+    - '4000:4000'
+    depends_on:
+    - game_api
+    environment:
+      PORT: 4000
+      API_PORT: 3000
+      API_URL: ${API_URL}
 ~~~
 
 ## Handin
