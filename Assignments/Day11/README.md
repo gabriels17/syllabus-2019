@@ -207,9 +207,9 @@ to your Jenkins deployment project.
 The next time Jenkins deploys your project the instance and security group should have
 a `_production` suffix.
 
-### API Test Job
+### API Test Stage
 
-Now create a new Jenkins job identical to the deployment job except:
+Now create a new Jenkins stage identical to the deployment stage except:
 - It should run Terraform from `/var/lib/jenkins/terraform/hgop/apitest`
 - It should have `apitest` as the Terraform environment parameter value.
 - It should run the API tests against the new `apitest` instance.
@@ -219,9 +219,9 @@ Add an API Test stage to your Jenkinsfile.
 
 Once you are done the API tests should be run against an `apitest` instance.
 
-### Capacity Test Job
+### Capacity Test Stage
 
-Now create a new Jenkins job identical to the deployment job except:
+Now create a new Jenkins stage identical to the deployment stage except:
 - It should run Terraform from `/var/lib/jenkins/terraform/hgop/capacitytest`
 - It should have `capacitytest` as the Terraform environment parameter value.
 - It should run the capacity tests against the new `capacitytest` instance.
