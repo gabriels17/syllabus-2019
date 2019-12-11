@@ -14,9 +14,9 @@ Then add the DataDog agent as a service to your docker-compose file:
       DD_SITE: 'datadoghq.eu'
       DD_DOGSTATSD_NON_LOCAL_TRAFFIC: 'true'
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /proc/mounts:/host/proc/mounts:ro
-      - /sys/fs/cgroup:/host/sys/fs/cgroup:ro
+     - /var/run/docker.sock:/var/run/docker.sock
+     - /proc/:/host/proc/:ro
+     - /sys/fs/cgroup:/host/sys/fs/cgroup:ro
 ```
 
 Now run docker-compose and you should see a datadog container running in parallel
