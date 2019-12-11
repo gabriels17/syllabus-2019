@@ -188,7 +188,7 @@ git rm --cached game_client
 
 Install project dependencies
 ```bash
-yarn install
+npm install
 ```
 
 Create file `Dockerfile`:
